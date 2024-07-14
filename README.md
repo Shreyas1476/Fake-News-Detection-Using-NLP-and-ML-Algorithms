@@ -8,11 +8,14 @@ All datasets are downloaded from Kaggle.The datasets used in this project are me
 
 + ### Fake News Detection Dataset :-
 
-This dataset contains 12 columns and 22635 rows.The link for the dataset is https://www.kaggle.com/code/sharanya02/fake-news-detection/input
+This dataset contains 12 columns and 22635 rows.Column titles include column titles: author, title, site_url, language, title_without_stopwords, text, published, main_img, type, label, text_without_stopwords, and hasImage. The data consists of news articles from various authors and types.The link for the dataset is https://www.kaggle.com/code/sharanya02/fake-news-detection/input
 
 + ### Getting Real about Fake News Dataset :-
 
 The dataset contains text and metadata from 244 websites and represents 12,999 posts.The link for the dataset is https://www.kaggle.com/datasets/mrisdal/fake-news?resource=download
+
++ ### Global News Dataset :-
+This news data set contains various news of global scope . This helps the model to get trained for international news from all domains .The link for the dataset is https://www.kaggle.com/datasets/dbs800/global-news-dataset
 
 + ### real_or_fake Dataset :-
 
