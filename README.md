@@ -21,15 +21,19 @@ The dataset contains three coulmns namely **title**,**text** and **label** along
 # Pre-Processing Stage :-
 
 In this stage, the dataset has images, URLs, non-English characters, and missing values that can hinder the process of analyzing the dataset. To remove them techniques such as punctuation removal, stemming, stopword removal and missing values removal have been used to convert it into a simple text dataset so that our classifiers work blissfully. As our data in the datasets were in the form of sentences our models would not be able to read them. To avoid this inconvenience we utilized TF− IDF Vectorizer which converted the sentences into the language that can be interpreted by the machine.
- 1) **Stopwords Removal:** Stopword removal and stemming
+
+1) **Stopwords Removal:** Stopword removal and stemming
 are preprocessing techniques used in Natural Language Processing (NLP) to improve analysis. Stop words are commonly
-used words in a language that have little semantic weight and don’t add much information to text. Examples of stop words include articles, prepositions, pronouns, and conjunctions. For example, ”the”, ”a”, ”an”, ”so”, and ”what” are all stopwords.
- in English. In this stage, we have removed them from all of the sentences that have their presence in our datasets.
- 2) **Stemming:** It’s a technique in which there’s a decreasing emphasis on the base-root form of the word. For this case,
+used words in a language that have little semantic weight and don’t add much information to text. Examples of stop words include articles, prepositions, pronouns, and conjunctions. For example, ”the”, ”a”, ”an”, ”so”, and ”what” are all stopwords in English. In this stage, we have removed them from all of the sentences that have their presence in our datasets.
+ 
+2) **Stemming:** It’s a technique in which there’s a decreasing emphasis on the base-root form of the word. For this case,
  ”ring” could be a root-base word, and ”ringing” and ”rings” are differentiating shapes of that word. Another example is,
  that ”laugh” could be a root-base word, and ”laughs” and ”laughing” are differentiating shapes of that word.
- 3) **Punctuation Removal:** By removing the punctuation marks such as removing of full stops, commas, hyphens, etc. After that, all the text gets converted into space-separated sequences of words.
- 4) **Removing missing values:** In datasets, missing information or lost values emerge when no information esteem is protected for the variable within the perception. The lost information is killed by spaces.
+ 
+3) **Punctuation Removal:** By removing the punctuation marks such as removing of full stops, commas, hyphens, etc. After that, all the text gets converted into space-separated sequences of words.
+ 
+4) **Removing missing values:** In datasets, missing information or lost values emerge when no information esteem is protected for the variable within the perception. The lost information is killed by spaces.
+
 5) **Tokenization:** It is a preprocessing technique in which the data are broken down into single units that are known as ‘tokens’.For example: “How are you” is broken down into three parts “How”, ”are”, and ”you”. Another example is ”The Weather is Good” which is broken down into four parts namely ”The”, ”weather”, ”is”, and ”good”.
 
 # Feature Extraction :-
